@@ -1,7 +1,7 @@
 package org.example.第一关.白银.LeetCode;
 
 /**
- * Description 寻找倒数第K个元素
+ * Description 寻找链表的倒数第 N 个结点
  * Author xlf
  * Date 2023/10/22
  */

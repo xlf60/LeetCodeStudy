@@ -13,7 +13,6 @@ public class Main {
         //la 为 1 2 3 4 5
         //lb 为 11 22 4 5
         ListNode la = heads[0];
-        ListNode lb = heads[1];
         rotateRight(la,2);
     }
     public static ListNode rotateRight(ListNode head, int k) {
@@ -24,6 +23,7 @@ public class Main {
         ListNode temp = head;
         ListNode fast = head;
         ListNode slow = head;
+
         int len = 0;
         // 统计出链表元素的个数
         while (head != null) {
