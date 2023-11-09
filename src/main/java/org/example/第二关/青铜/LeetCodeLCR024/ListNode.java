@@ -1,4 +1,4 @@
-package org.example.第二关.LeetCodeLCR024;
+package org.example.第二关.青铜.LeetCodeLCR024;
 
 /**
  * Description

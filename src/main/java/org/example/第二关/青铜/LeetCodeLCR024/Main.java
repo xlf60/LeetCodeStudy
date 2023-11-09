@@ -1,4 +1,4 @@
-package org.example.第二关.LeetCodeLCR024;
+package org.example.第二关.青铜.LeetCodeLCR024;
 
 /**
  * Description  反转链表
@@ -10,9 +10,6 @@ public class Main {
 
     /**
      * 建立虚拟头结点辅助反转
-     *
-     * @param head
-     * @return {@link ListNode}
      */
     public static ListNode reverseList1(ListNode head) {
 
@@ -30,9 +27,6 @@ public class Main {
 
     /**
      * 直接操作链表实现反转
-     *
-     * @param head
-     * @return {@link ListNode}
      */
     public static ListNode reverseList2(ListNode head) {
         ListNode prev = null;
@@ -49,7 +43,7 @@ public class Main {
 
     private static ListNode initLinkedList() {
 
-//                构造第一个链表交点之前的元素 1 ->2->3
+//      构造第一个链表交点之前的元素 1 ->2->3
         ListNode newNode = new ListNode(1);
         ListNode current = newNode;
         current.next = new ListNode(2);
