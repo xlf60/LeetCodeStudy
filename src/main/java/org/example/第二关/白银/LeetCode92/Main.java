@@ -62,6 +62,9 @@ public class Main {
     }
 
 
+    /**
+     * 反转链表
+     */
     private void reverseList(ListNode head) {
         ListNode pre = null;
         ListNode cur = head;
