@@ -1,6 +1,5 @@
 package org.example.第二关.白银.LeetCode445;
 
-import java.util.List;
 import java.util.Stack;
 
 /**
