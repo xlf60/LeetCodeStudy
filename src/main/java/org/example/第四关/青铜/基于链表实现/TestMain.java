@@ -1,5 +1,7 @@
 package org.example.第四关.青铜.基于链表实现;
 
+import java.util.Stack;
+
 /**
  * Description
  *
@@ -19,4 +21,6 @@ public class TestMain {
         System.out.println(stack.isEmpty());
 
     }
+
+
 }
